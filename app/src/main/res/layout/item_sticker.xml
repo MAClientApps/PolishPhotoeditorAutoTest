@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:id="@+id/relative_layout_wrapper_sticker"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:gravity="center"
+        android:id="@+id/image_view_item_sticker"
+        android:padding="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/amoji"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

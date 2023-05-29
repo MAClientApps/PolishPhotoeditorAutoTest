@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:navigationBarColor">@color/dark_grey_more</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80404040</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.5</item>
+        <item name="mrl_rippleRoundedCorners">5dp</item>
+        <item name="mrl_rippleDuration">250</item>
+    </style>
+
+    <style name="UploadDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@color/mainColor</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="fontFamily">@font/font</item>
+        <item name="android:height">15dp</item>
+        <item name="android:width">15dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+
+    <style name="SCBSwitch" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#FFFFFF</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+    </style>
+
+
+    <style name="mRecyclerTabLayout">
+        <item name="mTabIndicatorHeight">50dp</item>
+        <item name="mTabIndicatorColor">@color/dark_grey</item>
+        <item name="mTabMaxWidth">50dp</item>
+        <item name="mTabMinWidth">50dp</item>
+        <item name="mTabPadding">10dp</item>
+        <item name="mTabSelectedTextColor">@color/mainColor</item>
+    </style>
+
+    <style name="mRecyclerTabLayout.Tab" parent="@style/mRecyclerTabLayout">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+</resources>

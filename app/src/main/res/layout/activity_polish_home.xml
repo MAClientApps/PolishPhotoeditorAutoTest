@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundCardColor">
+
+    <ImageView
+        android:id="@+id/image_view_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/screen"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutAbout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="26sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/font"/>
+
+        <ImageView
+            android:id="@+id/imageViewSettings"
+            android:layout_width="35dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_settings"
+            app:tint="@color/white"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/ad_container"
+        android:elevation="3dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutOption"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayoutAbout"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            style="@style/RippleStyleWhite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_circle_edit">
+
+            <LinearLayout
+                android:id="@+id/relative_layout_edit_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_photo"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Editor"
+                    android:fontFamily="@font/font"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                style="@style/RippleStyleWhite"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_circle_edit">
+
+
+                <LinearLayout
+                    android:id="@+id/relative_layout_edit_collage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:padding="3dp"
+                        android:src="@drawable/ic_round_collage"
+                        app:tint="@color/white"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Collage"
+                        android:fontFamily="@font/font"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                style="@style/RippleStyleWhite"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_circle_edit">
+
+                <LinearLayout
+                    android:id="@+id/relative_layout_edit_camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_baseline_camera"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Camera"
+                        android:fontFamily="@font/font"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

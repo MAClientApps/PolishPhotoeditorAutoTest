@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Polish</string>
+    <!-- Admob Ads -->
+    <string name="id_app_ads">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="native_ads">ca-app-pub-3940256099942544/2247696110</string>
+
+    <!--Email, Privacy, Developer Acount-->
+    <string name="email_feedback">email@gmail.com</string>
+    <string name="policy_url">https://www.google.com/</string>
+    <string name="developer_account_link">https://www.google.com/</string>
+
+    <!--File Provider-->
+    <!-- change file provider package name without remove ".provider" -->
+    <string name="file_provider">com.polish.photoeditor.pro.provider</string>
+
+    <string name="text_title_dialog_sort_by_photo">Sort photo by</string>
+    <string name="text_title_dialog_sort_by_album">Sort album by</string>
+    <string name="action_sort">sort</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="rating_promote">We are working hard for a better user experience. \nWe\'d greatly appreciate if you can rate us.</string>
+    <string name="rating_title_1">Oh, no!</string>
+    <string name="rating_title_2">We like you too!</string>
+    <string name="rating_text_1">Please leave us some feedback.</string>
+    <string name="rating_text_4">Thanks for your feedback.</string>
+    <string name="rating_text_5">The best we can get :)</string>
+    <string name="feedback">Feed back</string>
+    <string name="tap_to_select">All Albums</string>
+    <string name="select_photo">Select Photos</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="text_images">(%1$d)</string>
+    <string name="select_images">Select 2-9 photos</string>
+    <string name="text_title_activity_album">Albums</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="rate_us">Rate us</string>
+    <string name="settings">More app</string>
+    <string name="press_back">Please press back again to exit</string>
+    <string name="share_friend">Share app</string>
+    <string name="sharpen">Sharpen</string>
+    <string name="hue">Hue</string>
+    <string name="exposure">Exposure</string>
+    <string name="saturation">Saturation</string>
+    <string name="choose_email">Choose an app</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="dialog_discard_title">Changes will not be saved. Do you want to proceed?</string>
+    <string name="discard">Discard</string>
+    <string name="save">SAVE</string>
+    <string name="edit">Editor</string>
+    <string name="collage">Collage</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="please_try_again">Oops, Please try again...</string>
+    <string name="directory">/.PhotoEditorTemp/</string>
+    <string name="importing_image">Importing image…</string>
+    <string name="import_img_warning">Please import image!!!</string>
+    <string name="import_error">Error while getting image.</string>
+    <string name="drag_color">Drag POINTER to earse.</string>
+    <string name="redoing">Redoing</string>
+    <string name="drag_bw">Drag POINTER to restore image.</string>
+    <string name="undoing">Undoing</string>
+    <string name="msg_draw_lasso">Draw a closed path.</string>
+    <string name="msg_up_arrow">Click UP arrow to get options</string>
+    <string name="msg_auto_btn">Click AUTO button to perform auto erase</string>
+    <string name="msg_lasso_btn">Click EXTRACT button</string>
+    <string name="msg_manual_btn">Click MANUAL button to manually erase</string>
+    <string name="msg_bw_btn">Click RESTORE button to restore image</string>
+    <string name="msg_zoom_btn">Click ZOOM button to drag and zoom image.</string>
+    <string name="txt_not_detect_human">Human detection is failed. Please try again.</string>
+    <string name="cut_photo">Select Photo</string>
+    <string name="cut_outside">Cut Outside</string>
+    <string name="cut_inside">Cut Inside</string>
+    <string name="radius">Size</string>
+    <string name="threshold">Threshold</string>
+    <string name="offset">Offset</string>
+    <string name="auto">Auto</string>
+    <string name="lasso">Extract</string>
+    <string name="erase">Manual</string>
+    <string name="restore">Restore</string>
+    <string name="zoom">Zoom</string>
+    <string name="whitebalance">whitebalance</string>
+    <string name="vignette">vignette</string>
+    <string name="on_internet">No internet connection</string>
+    <string name="connect_internet">Please connect to the internet . Until you save!</string>
+    <string name="ok">Ok</string>
+
+    <string name="btn_free_trial">7-Day Free Trial</string>
+    <string name="btn_billing">One Time Purchase</string>
+
+    <string-array name="array_sort_value">
+        <item>Name</item>
+        <item>Size</item>
+        <item>Date</item>
+    </string-array>
+
+    <string name="no_ads_evermore">No ads evermore</string>
+    <string name="continue_btn">Continue</string>
+    <string name="use_without_internet">Use without internet.</string>
+    <string name="access_to_all_features">Access to All features.</string>
+    <string name="join_full_experience">Join Full Experience.</string>
+    <string name="email_app_not_installed">email app not installed</string>
+</resources>
